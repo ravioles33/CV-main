@@ -15,16 +15,61 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                Foto
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center align-items-center"> <!-- Row IMG, Nombre completo y subtítulo -->
+            <div class="col-4 p-3">
+                <img src="img/IMG_20200506_112241.jpg" alt="Foto de Julián" class="rounded-circle img-fluid"
+                    height="400" width="400">
             </div>
-            <div class="col-10 d-flex flex-column ">
-                <div class="text-center text-uppercase">
-                    <h1 class="">Julián Martín Stimbaum</h1>
-                    <h2 class="">Desarrollo FullStack, psicología y docencia</h2>
-                </div>
+
+            <div class="col-8 text-center text-uppercase">
+                <h1 class="">Julián Martín Stimbaum</h1>
+                <h2 class="">Desarrollo FullStack, psicología y docencia</h2>
+            </div>
+        </div>
+        <div class="row"> <!-- Row resto del texto -->
+            <div class="col-4 d-flex flex-column  text-center">
+
+                <h3 class="text-uppercase">Mi trayectoria</h3>
+                <p class="">
+                    Soy un estudiante de la Licenciatura en
+                    Psicología (UNLP), ahora graduado como
+                    Profesor, que realiza actividades de docencia,
+                    extensión e investigación.
+                    <br>
+                    Trabajo actualmente en la Facultad de
+                    Psicología de la UNLP en el equipo encargado
+                    de generar y mantener los medios (gestiones
+                    de plataformas Moodle y tareas de
+                    organización) para que la educación pueda
+                    llevarse a cabo de forma remota.
+                    <br>
+                    Trabajé para Contenidos Públicos (Jefatura
+                    de Gabinete de la Nación) desarrollando el
+                    Frontend (React-Bootstrap) para el sitio web
+                    de "DeporTV".
+                    <br>
+                    También trabajé en el equipo de Distancia de
+                    la Universidad ISALUD.
+                    <br>
+                    Buscando mejorar mi formación realicé el
+                    curso FullStack con VUE-Python llamado
+                    Codo a Codo (GCBA). Actualmente estoy en el
+                    curso de profundización en Django (CAC-
+                    GCBA) y en la maestría en Ciencia de Datos de
+                    la UNSAM. También estoy en la carrera de
+                    Analista programador universitario (APU) en
+                    la UNLP.
+                    <br>
+                    Siempre he estado interesado y vinculado con
+                    las tecnologías y creo que mi formación
+                    humanística es un gran aporte a la forma de
+                    ver y pensar la relación sujetos-tecnologías.
+                </p>
+
+            </div>
+            <div class="col-8 d-flex flex-column ">
+
                 <h3 class="text-uppercase">Experiencia profesional</h3>
 
                 <div class="">
@@ -80,6 +125,12 @@
                     <p>-Profesor en Psicología: promedio 8.43
                         <br>
                         -En licenciatura: promedio 8.37, 75,92% de la carrera aprobada (faltan 7 materias).
+                    </p>
+                </div>
+                <div>
+                    <h4>Universidad Nacional de La Plata</h4>
+                    <p>Estudiante de Analista programador universitario (APU) en Facultad de Informática</p>
+                    <p>-Actualmente cursando el primer año de la carrera.
                     </p>
                 </div>
             </div>
